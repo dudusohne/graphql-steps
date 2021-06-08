@@ -1,0 +1,31 @@
+{
+  "role": [
+    {"key": 1, "title": "Teacher"},
+    {"key": 2, "title": "Manager"},
+    {"key": 3, "title": "Principal"}
+  ],
+
+  "users": [
+    {
+      "id": 1,
+      "nome": "Ana Torre",
+      "ativo": true,
+      "email": "a@a.com",
+      "role": 1
+    },
+    {
+      "id": 2,
+      "nome": "Gabriel Costa",
+      "ativo": true,
+      "email": "g@g.com",
+      "role": 1
+    },
+    {
+      "id": 3,
+      "nome": "Flavia Lins",
+      "ativo": true,
+      "email": "f@f.com",
+      "role": 1
+    }
+  ]
+}
