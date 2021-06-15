@@ -1,0 +1,60 @@
+{
+  "role": [
+    {
+      "id": 1,
+      "type": "Teacher"
+    },
+    {
+      "id": 2,
+      "type": "Manager"
+    },
+    {
+      "id": 3,
+      "type": "Principal"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "nome": "Ana Torre",
+      "ativo": true,
+      "email": "a@a.com",
+      "role": 1
+    },
+    {
+      "id": 2,
+      "nome": "Gabriel Costa",
+      "ativo": true,
+      "email": "g@g.com",
+      "role": 1
+    },
+    {
+      "id": 3,
+      "nome": "Flavia Lins",
+      "ativo": true,
+      "email": "f@f.com",
+      "role": 1
+    },
+    {
+      "nome": "Eduardo S",
+      "ativo": true,
+      "email": "dudusohne@hotmail.com",
+      "role": 1,
+      "id": 4
+    },
+    {
+      "nome": "Joel Padeiro",
+      "ativo": true,
+      "email": "f@f.com",
+      "role": 2,
+      "id": 5
+    },
+    {
+      "nome": "Jeremias Arce",
+      "ativo": true,
+      "email": "f@f.com",
+      "role": 3,
+      "id": 6
+    }
+  ]
+}
