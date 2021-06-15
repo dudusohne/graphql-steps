@@ -5,39 +5,58 @@ json-server ./api/data/dados.json --host localhost --port 3000
 npm start
 
 ---------------------------------------------------//---------------------------------------------------
+// MUTATIONS
 
+//-- ADD USER
 mutation {
-  adicionaUser(nome: "Laura barros",ativo: true, email: "dudusohne@hotmail.com", role: "DOCENTE" )
-}
-
-mutation {
-  adicionaUser(nome: "Laura barros",
+  adicionaUser(
+    nome: "Jeremias Arce",
     ativo: true, 
-    email: "dudusohne@hotmail.com", 
-    role: "DOCENTE" ){
+    email: "f@f.com", 
+    role: "Principal" ){
     nome
     role {
       type
     }
   }
 }
-
+//-- UPDATE USER
 mutation {
-  adicionaUser(
-    nome: "Eduardo S",
+  atualizaUser(
+    id: 7,
+    user: {
+    nome: "João Maria 2",
     ativo: true, 
-    email: "dudusohne@hotmail.com", 
-    role: "Developer"){ 
-     nome 
-     role {type} 
-    }
+    email: "f@f.com", 
+    role: COORDENACAO,
+    createdAt: "2021-06-15"}){
+    nome
+   
+  }
 }
 
+//-- DELETE USER
+mutation {
+  deletaUser(
+    id: 7
+   
+  )
+}
 
-
-
+// QUERIES
 query {
     users {
 
     }
 }
+
+----------------------------------- TERMINAL ----------------------------------
+
+NPM START - RODANDO WITH nodemon
+
+[nodemon] 2.0.7
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,json,graphql
+[nodemon] starting `node ./api/index.js`
+servidor rodando na porta http://localhost:4000/

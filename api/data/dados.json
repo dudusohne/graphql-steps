@@ -1,10 +1,30 @@
 {
   "role": [
-    {"id": 1, "type": "Teacher"},
-    {"id": 2, "type": "Manager"},
-    {"id": 3, "type": "Principal"}
+    {
+      "id": 1,
+      "type": "TEACHER"
+    },
+    {
+      "id": 2,
+      "type": "MANAGER"
+    },
+    {
+      "id": 3,
+      "type": "PRINCIPAL"
+    },
+    {
+      "id": 4,
+      "type": "ESTUDANTE"
+    },
+    {
+      "id": 5,
+      "type": "DOCENTE"
+    },
+    {
+      "id": 6,
+      "type": "COORDENACAO"
+    }
   ],
-
   "users": [
     {
       "id": 1,
@@ -26,6 +46,56 @@
       "ativo": true,
       "email": "f@f.com",
       "role": 1
+    },
+    {
+      "nome": "Eduardo S",
+      "ativo": true,
+      "email": "dudusohne@hotmail.com",
+      "role": 1,
+      "id": 4
+    },
+    {
+      "nome": "Joel Padeiro",
+      "ativo": true,
+      "email": "f@f.com",
+      "role": 2,
+      "id": 5
+    },
+    {
+      "nome": "Carlos Alberto",
+      "ativo": true,
+      "email": "f@f.com",
+      "role": 3,
+      "id": 6
+    },
+    {
+      "nome": "Adair Adão Silva",
+      "ativo": true,
+      "email": "f@f.com",
+      "role": 1,
+      "id": 7
+    },
+    {
+      "nome": "Garlos Cabriel Jaime",
+      "ativo": true,
+      "email": "f@f.com",
+      "role": 2,
+      "id": 8
+    },
+    {
+      "nome": "João Maria",
+      "ativo": true,
+      "email": "f@f.com",
+      "role": 6,
+      "id": 9
+    },
+    {
+      "nome": "João Maria 2",
+      "ativo": true,
+      "email": "f@f.com",
+      "role": 6,
+      "createdAt": "2021-06-15T00:00:00.000Z",
+      "id": 10
     }
   ]
 }
