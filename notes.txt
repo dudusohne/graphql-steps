@@ -1,0 +1,43 @@
+RUNNING CMD:
+
+json-server ./api/data/dados.json --host localhost --port 3000
+
+npm start
+
+---------------------------------------------------//---------------------------------------------------
+
+mutation {
+  adicionaUser(nome: "Laura barros",ativo: true, email: "dudusohne@hotmail.com", role: "DOCENTE" )
+}
+
+mutation {
+  adicionaUser(nome: "Laura barros",
+    ativo: true, 
+    email: "dudusohne@hotmail.com", 
+    role: "DOCENTE" ){
+    nome
+    role {
+      type
+    }
+  }
+}
+
+mutation {
+  adicionaUser(
+    nome: "Eduardo S",
+    ativo: true, 
+    email: "dudusohne@hotmail.com", 
+    role: "Developer"){ 
+     nome 
+     role {type} 
+    }
+}
+
+
+
+
+query {
+    users {
+
+    }
+}

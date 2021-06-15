@@ -1,8 +1,8 @@
 {
   "role": [
-    {"key": 1, "title": "Teacher"},
-    {"key": 2, "title": "Manager"},
-    {"key": 3, "title": "Principal"}
+    {"id": 1, "type": "Teacher"},
+    {"id": 2, "type": "Manager"},
+    {"id": 3, "type": "Principal"}
   ],
 
   "users": [

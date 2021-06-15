@@ -1,7 +1,15 @@
 const userResolvers = {
     Query: {
+        
         users: (root, args, { dataSources }) => dataSources.
-        usersAPI.getUsers()   
+        usersAPI.getUsers(),
+        user:(root, { id }, { dataSources }) => dataSources.
+        usersAPI.getUserById(id),
+
+    },
+    Mutation: {
+        adicionaUser: (root, user, { dataSources }) => dataSources.
+        usersAPI.adicionaUser(user),
     }
 }
 
